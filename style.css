@@ -1,0 +1,83 @@
+body{
+ background-color: black;
+}
+.navbar{
+ width: 100%;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #ff5e00, #ff7b00, #ff1f02);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 400px;
+  width: 100%;
+border-radius: 0px;
+padding: 10px;
+margin: 10px;
+
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.hero {
+  
+    background-image: url('background.png');
+    /* background-size: cover; */
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* position: absolute;
+  left: 5px; */
+  }
+  .name{
+
+font-family: "Playwrite US Trad", cursive;
+
+font-size: 8rem;
+   
+  }
+  .profile{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  img.profilepic{
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .info
+{
+  background-color: black;
+  height: 400px;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.project{
+  padding: 50px;
+}
+.carousel-caption{
+  margin: 50px;
+}
