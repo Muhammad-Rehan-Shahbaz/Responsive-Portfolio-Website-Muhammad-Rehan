@@ -30,7 +30,7 @@ margin: 10px;
 }
 .hero {
   
-    background-image: url('./Assets/background.png');
+    background-image: url('background.png');
     /* background-size: cover; */
     background-position: center;
     height: 450px;
